@@ -15,4 +15,19 @@ organizations working on the ground.
   to send to support organizations.
 - **Per-region pages** (currently a styled heading; content to be added).
 
-## 🗂️ Project Structure
+
+## 🛠️ Built With
+
+- **HTML5** — semantic structure, multi-page navigation
+- **CSS3** — flexbox navbar, hover-driven dropdown menu, custom backgrounds
+- **Vanilla JavaScript** — inline `onclick` handlers for navigation *(planned refactor
+  to real `<a href>` links)*
+
+## 🚀 How to Run
+
+No build step. Open `Home.html` in a browser, or serve the folder locally:
+
+```bash
+# from inside the Freedom/ folder
+python3 -m http.server 8000
+# then visit http://localhost:8000/Home.html
